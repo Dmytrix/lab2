@@ -1,0 +1,31 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Lab2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dmytrix",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmytrix/lab_2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dmytrix/lab_2/issues"
+  },
+  "homepage": "https://github.com/Dmytrix/lab_2#readme"
+}

@@ -1,0 +1,18 @@
+extends ../layout.pug
+
+block content
+  div(class='breadcrumb')
+    div= title
+  div.list-group
+    div.list-group-item
+      span(class='list-icon glyphicon glyphicon-briefcase')
+      a(href='/shop') Shop
+    div.list-group-item
+      span(class='list-icon glyphicon glyphicon-briefcase')
+      a(href='/store') Store
+    div.list-group-item
+      span(class='list-icon glyphicon glyphicon-briefcase')
+      a(href='/item') Item
+    div.list-group-item
+      span(class='list-icon glyphicon glyphicon-briefcase')
+      a(href='/itemInStore') ItemInStore
